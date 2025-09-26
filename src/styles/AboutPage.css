@@ -1,4 +1,4 @@
-/* .about-container {
+.about-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
@@ -17,13 +17,30 @@
 }
 
 .about-image {
-  width: 200px;
+  width: 200px;      /* default size on desktop */
   height: auto;
   border-radius: 50%;
   margin: 1rem 0;
 }
 
+/* Text */
 .about-container p {
   font-size: 1rem;
   line-height: 1.6;
-} */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-container h1 {
+    font-size: 1.5rem;
+  }
+  .about-container h2 {
+    font-size: 1.2rem;
+  }
+  .about-container p {
+    font-size: 0.9rem;
+  }
+  .about-image {
+    width: 150px;   /* smaller on mobile */
+  }
+}
