@@ -1,8 +1,9 @@
 import React from 'react';
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <footer style={{ padding: '1rem', background: '#f1f1f1', textAlign: 'center' }}>
+    <footer className="footer">
       <p>&copy; {new Date().getFullYear()} My Site. All rights reserved.</p>
     </footer>
   );
