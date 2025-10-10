@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="text-white py-4 shadow">
+    <nav className="text-white py-8 shadow bg-black/20 backdrop-blur-sm text-xl italic">
       <div className="container mx-auto px-4 flex justify-between md:justify-center items-center">
     
 
@@ -48,20 +48,20 @@ const Navbar = () => {
             ${isOpen ? 'flex' : 'hidden'} md:flex
           `}
         >
-          <li className="py-2 md:py-0">
-            <a href="#" className="block hover:text-gray-300">Home</a>
+          <li className="py-3 md:py-0">
+            <a href="#" className="block hover:text-gray-300 text-xl font-medium">Home</a>
           </li>
-          <li className="py-2 md:py-0 md:mx-4">
-            <span className="hidden md:inline text-gray-400">/</span>
+          <li className="py-3 md:py-0 md:mx-6">
+            <span className="hidden md:inline text-gray-400 text-xl">/</span>
           </li>
-          <li className="py-2 md:py-0">
-            <a href="#about" className="block hover:text-gray-300">About Me</a>
+          <li className="py-3 md:py-0">
+            <a href="#about" className="block hover:text-gray-300 text-xl font-medium">About Me</a>
           </li>
-          <li className="py-2 md:py-0 md:mx-4">
-            <span className="hidden md:inline text-gray-400">/</span>
+          <li className="py-3 md:py-0 md:mx-6">
+            <span className="hidden md:inline text-gray-400 text-xl">/</span>
           </li>
-          <li className="py-2 md:py-0">
-            <a href="#contact" className="block hover:text-gray-300">Contact Me</a>
+          <li className="py-3 md:py-0">
+            <a href="#contact" className="block hover:text-gray-300 text-xl font-medium">Contact Me</a>
           </li>
         </ul>
       </div>

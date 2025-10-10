@@ -29,6 +29,7 @@ const Hero = () => {
       <WeatherButton />
       <Seasons />
 
+
       </div>
     </section>
   );
