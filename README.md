@@ -17,9 +17,35 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-## To start a React project with Vite:
 
+
+## run this locally:
+npm run dev
+
+
+
+
+
+
+## To start a React project with Vite:
  npm create vite@latest my-app --template react
     cd my-app
     npm install
     npm run dev
+
+
+
+
+
+
+A simple React + Vite + Tailwind project.
+
+## 🚀 Live Site
+
+[Click here to view the live site](https://marialavigina.github.io/my-edinburgh/)
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
