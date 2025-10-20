@@ -3,8 +3,9 @@ import heroImg2 from '../assets/hero-image-two.svg';
 import heroImg3 from '../assets/hero-image-three.svg';
 import WeatherButton from './WeatherButton'; 
 import Seasons from './Seasons';
+import QuizButton from './QuizButton';
 
-const Hero = () => {
+const Hero = ({ onQuizStart }) => {
   return (
     <section className="py-28">
       <div className="container mx-auto px-4 flex flex-col items-center">
@@ -28,6 +29,9 @@ const Hero = () => {
          {/* Weather API button */}
       <WeatherButton />
       <Seasons />
+   
+           {/* Pass the onQuizStart prop down to QuizButton */}
+        <QuizButton onClick={onQuizStart} />
 
 
       </div>

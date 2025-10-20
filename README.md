@@ -49,3 +49,12 @@ A simple React + Vite + Tailwind project.
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+
+
+## run the Flask app - all the q should be in the 5000 port as json file 
+python3 app.py
+http://127.0.0.1:5000/questions
+
+## the app local host
+npm run dev
+http://localhost:5173/my-edinburgh/
